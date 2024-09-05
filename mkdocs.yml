@@ -1,0 +1,7 @@
+site_name: Jaras
+
+nav:
+- About: about.md
+- Home: index.md
+
+theme: readthedocs
