@@ -5,3 +5,23 @@ nav:
 - Home: index.md
 
 theme: readthedocs
+
+extra_css:
+  - stylesheets/custom.css
+
+extra_javascript:
+  - javascripts/custom.js
+
+palette:
+    primary: indigo
+    accent: pink
+
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - admonition
+  - codehilite
+
+
+
