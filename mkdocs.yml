@@ -3,25 +3,34 @@ site_name: Jaras
 nav:
 - About: about.md
 - Home: index.md
+#add repo here d
+- example-repo: docs/.github/workflows/README.md
 
-theme: readthedocs
-
-extra_css:
-  - stylesheets/custom.css
-
-extra_javascript:
-  - javascripts/custom.js
-
-palette:
+plugins:
+- search:
+    lang:
+    - ar
+    - en
+theme:
+  features:
+  - search.suggest
+  - search.highlight
+  - search.share
+  language: ar
+  name: readthedocs
+  palette:
+  - accent: indigo
     primary: indigo
-    accent: pink
-
-
-markdown_extensions:
-  - toc:
-      permalink: True
-  - admonition
-  - codehilite
+    scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - accent: blue
+    primary: blue
+    scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
 
 
 

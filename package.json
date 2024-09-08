@@ -1,0 +1,19 @@
+{
+  "name": "jaras-project",
+  "version": "1.0.0",
+  "description": "project in this project i will creat a website  this project will be to automate the process of the repos that we have",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  }
+}
